@@ -1,0 +1,10 @@
+num1 = int(input("Nhap vao so nguyen num1"))
+num2 = int(input("Nhap vao so nguyen num2"))
+
+print(num1, '+', num2, '=', num1+num2)
+print(num1, '-', num2, '=', num1-num2)
+print(num1, '*', num2, '=', num1*num2)
+print(num1, '/', num2, '=', num1/num2)
+print(num1, '//', num2, '=', num1//num2)
+print(num1, '%', num2, '=', num1 % num2)
+print(num1, '**', num2, '=', num1**num2)
