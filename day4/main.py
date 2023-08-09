@@ -5,8 +5,7 @@ movies_list = ["Iron man", "Spiderman",
 movies_list.insert(0, "Fairy Heart")
 print(movies_list)
 # 9. Đếm số bộ phim có tiêu đề là "One Piece".
-search_query = "One Piece"
-one_piece_count = 0
+
 
 for movie in movies_list:
     if search_query.lower() in movie.lower():
