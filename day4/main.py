@@ -1,26 +1,6 @@
 # 1. Tạo một movies list chứa tên các bộ phim đã xem.
 movies_list = ["Iron man", "Spiderman",
                "Batman", "Superman", "Antman", "Aquaman"]
-print(movies_list, type(movies_list))
-# 2. Sử dụng hàm input để nhập vào một bộ phim khác không có trong movies list.
-movies_list.insert(0, "Yusha")
-print(movies_list)
-# 3. Thêm bộ phim vừa nhập vào cuối danh sách movies.
-movies_list.append("Yusha")
-print(movies_list)
-# 4. In ra bộ phim đầu tiên, cuối cùng và ở giữa movies list.
-print(movies_list[0], movies_list[7], movies_list[4])
-# 5. Tính tống bộ phim có trong movies list.
-amount = len(movies_list)
-print(amount)
-# 6. Xóa bộ phim đầu và cuối trong movies list.
-del movies_list[0]
-del movies_list[6]
-print(movies_list)
-# 7. Lấy ra và xóa bộ phim cuối cùng trong movies list.
-print(movies_list[5])
-del movies_list[5]
-print(movies_list)
 # 8. Chèn một bộ phim bất kỳ vào đầu danh sách movies.
 movies_list.insert(0, "Fairy Heart")
 print(movies_list)
