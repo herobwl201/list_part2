@@ -6,7 +6,7 @@ new_lst = friends[0:4:1]  # giá trị thứ 3 là step (bước nhảy)
 # so sánh nó có khác với list ban đầu không (result: false)
 print(new_lst is friends)
 print(new_lst)
-print(friends[0], friends[1], friends[2], friends[3])
+print(friends[0:4])
 # b. Lấy ra 4 người bạn cuối cùng trong list friends.
 new_lst1 = friends[-1:-5:-1]  # giá trị thứ 3 là step (bước nhảy)
 # so sánh nó có khác với list ban đầu không (result: false)
@@ -35,7 +35,13 @@ print(id(students))
 # a. Lấy ra thông tin của sinh viên thứ nhất 
 # và in ra định dạng "ID: {id}, name: {name}, 
 # age: {age}".
-print(students[0])
+# print(type({2}))
+sv1 = students[0]
+print("Thông tin sinh viên 1", sv1)
+sv1_id = sv1[0]
+sv1_name = sv1[1]
+sv1_age = sv1[2]
+print(f'ID: {sv1_id}, name: {sv1_name}, age: {sv1_age}')
 # b. Lấy ra tuổi của sinh viên thứ hai.
 print(students[1][2])
 # c. Lấy ra thông tin của hai sinh viên cuối cùng.
