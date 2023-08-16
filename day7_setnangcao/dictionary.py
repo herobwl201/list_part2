@@ -9,7 +9,7 @@ student = {
 print(json.dumps(student, indent=4))
 
 # Lấy giá trị trong dictionary
-# Cách 1
+# Cách 1:
 value = student["name"]
 print(value) # Result: Bob
 # Cách 2
