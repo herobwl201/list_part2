@@ -5,7 +5,7 @@
 
 for i in range(1,21):
     if i > 5:
-        break # khi mà i > 5 nó sẽ break (thoát ra) khỏi vòng lặp n
+        break # khi mà i > 5 nó sẽ break (thoát ra) khỏi vòng lặp n.
     print(i, end = ' ')
 
 for i in range(1,21):
