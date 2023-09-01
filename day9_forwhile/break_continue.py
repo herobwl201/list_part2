@@ -3,10 +3,10 @@
 + continue: bỏ qua các câu lệnh bên dưới nó và chuyển sang mộ lần lặp mới
 """
 
-for i in range(1,21):
+""" for i in range(1,21):
     if i > 5:
         break # khi mà i > 5 nó sẽ break (thoát ra) khỏi vòng lặp n.
-    print(i, end = ' ')
+    print(i, end = ' ') """
 
 for i in range(1,21):
     if i % 2 == 0:
